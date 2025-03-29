@@ -1,51 +1,91 @@
-body {
-    align-items: center;
-    text-align: center;
+body{
+    background-color: rgb(253, 240, 222);
 }
 
 
-h1 {
-    margin-bottom: 20px;
+h2 {
     font-size: 40px;
 }
-
+.lege{
+    text-align: center;
+}
 input {
-    width: 200px;
-    padding: 10px;
+    width: 600px;
+    padding: 11px;
     margin-bottom: 20px;
     font-size: 15px;
     border-radius: 5px;
 }
 
 button {
-    padding: 10px;
+    padding: 12px;
     font-size: 15px;
     background-color: #000300;
     color: white;
     border-radius: 5px;
+    width: 100px;
 
 }
 
-button:hover {
-    background-color: #000000;
+
+.goals{
+    text-align: center;
+    margin-top: 30px;
+    
+
+
 }
 
-li {
-    padding: 10px;
-    background-color: #f2f2f2;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    align-items: center;
+
+*{
+    margin: 0 ;
+    padding: 0;
 }
 
-li button {
-    background-color: #e74c3c;
-    border: none;
+nav{
+    background-color: rgb(146, 5, 5);
+    padding: 1rem;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+
+
+
+}
+.first-p{
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+}
+.fp{
+    font-style: italic;
+}
+.kk{
+    color:rgb(253, 240, 222);
+    
+}
+
+#countlabel{
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+}
+
+#btncountainer{
+    text-align: center;
+}
+.btn{
+    padding: 12px;
+    font-size: 15px;
+    background-color: #000300;
     color: white;
-    padding: 5px;
-    cursor: pointer;
-}
-
-li button:hover {
-    background-color: #c0392b;
+    border-radius: 5px;
+    width: 100px;
 }
